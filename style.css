@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,6 +20,7 @@ header {
     height: auto;
 }
 
+/* Main Content Styles */
 main {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -28,8 +30,11 @@ main {
 
 section {
     margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
 }
 
+/* Form Styles */
 form {
     display: flex;
     flex-direction: column;
@@ -52,3 +57,18 @@ button {
 button:hover {
     background-color: #333;
 }
+
+/* Section Headings */
+h1, h2, h3 {
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
