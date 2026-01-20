@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKINK ZAMBIA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Kunda Black Ink Logo" class="logo">
+    </header>
+    <main>
+        <h1>Welcome to Kunda Black Ink</h1>
+        <section>
+            <h2>Pricing & Policies</h2>
+            <h3>Starting Price</h3>
+            <p>Our studio minimum is <strong>K200</strong>. Prices vary based on size and detail.</p>
+            <h3>Deposit Requirement</h3>
+            <p>A <strong>K100</strong> deposit is required to confirm your slot. Non-refundable.</p>
+            <h3>Booking Policy</h3>
+            <p>Please arrive 10 minutes early. Rescheduling requires 24h notice.</p>
+            <h3>Location</h3>
+            <p>Find us in Kabwata Nzou Street, Lusaka. Map below for directions.</p>
+        </section>
+
+        <section>
+            <h2>Secure Your Session</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label for="designUpload">Upload a reference design (Optional):</label>
+                <input type="file" id="designUpload" name="designUpload" accept="image/*">
+                <button type="button" onclick="alert('Upload feature will be handled by your backend.')">Upload</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Check My Bookings</h2>
+            <form id="bookingForm">
+                <label for="bookingName">Your Name:</label>
+                <input type="text" id="bookingName" name="bookingName" required>
+
+                <label for="bookingDate">Booking Date:</label>
+                <input type="date" id="bookingDate" name="bookingDate" required>
+
+                <label for="bookingTime">Booking Time:</label>
+                <input type="time" id="bookingTime" name="bookingTime" required>
+
+                <button type="button" onclick="alert('Booking feature will be handled by your backend.')">Check Availability</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Studio Location</h2>
+            <p>📍 Kabwata Nzou Street, Lusaka, Zambia | 📞 +260 974 983 484</p>
+        </section>
+    </main>
+
+    <script src="tattoo-app.js"></script>
+</body>
+</html>
